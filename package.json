@@ -25,6 +25,11 @@
     "use-debounce": "^10.0.4",
     "zod": "^3.24.1"
   },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "bcrypt"
+    ]
+  },
   "devDependencies": {
     "@types/node": "22.10.7",
     "@types/react": "19.0.7",
